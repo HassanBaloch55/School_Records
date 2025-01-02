@@ -1,0 +1,128 @@
+
+
+/* Home page css */
+
+
+.card {
+    margin-bottom: 30px;
+    box-shadow: 1px 2px 1px 2px rgb(123, 194, 176);
+}
+ .card img {
+    height: 20vh;
+    width: 100%;
+ }
+ .card a {
+    height: auto;
+    width: auto;
+    position: relative;
+    justify-content: center;
+    left: 5vw;
+    padding: 1vh 2vw;
+    background-color: rgb(11, 77, 63);
+    color: white;
+    outline: none;
+    border: none;
+    margin: auto;
+    border-radius: 20px;
+ }
+ .card a:hover{
+    text-decoration: none;
+    color: aliceblue;
+    transition: ease-in-out;
+    background: linear-gradient(90deg ,rgb(22, 107, 163) ,rgb(31, 49, 41) , rgb(175, 23, 129) , rgb(106, 106, 241));
+
+ }
+ .img-slider{
+    position: relative;
+    top: 10px;
+    height: 60vh;
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.2vh 0.5vw;
+ }
+   h2 {
+       margin-bottom: 20px;
+       text-align: center;
+   }
+   details {
+       margin-bottom: 20px;
+   }
+
+        /* end home page css */
+
+ /*****************/
+
+/* Strt table Css */
+table {
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 5vh;
+    border: 0.5px solid green;
+    position: relative;
+    top: 4vh;
+    box-shadow: 1px 3px 2px 3px rgb(129, 127, 124);
+}
+table  td{
+    width: 10%;
+}
+ /* end table css */
+
+ /******************/
+
+ /* strt ADMISSION  form css */
+ .container form {
+    height: auto;
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgb(255, 255, 255);
+    background-color: antiquewhite;
+    border: 1px solid gray;
+    margin: auto;
+    padding: 1vh 2vw;
+    position: relative;
+    top: 1.5vh;
+    bottom: 1.5vh;
+}
+
+.container form  h4 {
+         text-align: center;
+         margin: 2vh 0;
+}
+.container form label {
+    margin: 0.8vh 0;
+    font-size: 1em;
+    font-weight: bold;
+}
+.container form input {
+    border: 1px solid green;
+}
+
+.container form select {
+    border: 1px solid green;
+}
+.container form textarea {
+    border: 1px solid green;
+}
+.container form  button {
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+    padding: 1vh 3vw;
+    color: white;
+    background-color:rgb(10, 59, 59);
+    border: none;
+    border-radius: 20px;
+}
+.container form button:hover {
+    background: linear-gradient(90deg ,rgb(22, 107, 163) ,rgb(31, 49, 41) , rgb(175, 23, 129) , rgb(106, 106, 241));
+    transition: 1s ease;
+    color: rgb(255, 255, 255);
+    border: green;
+}
+/* end form css */
+
+/******************/
+
+/* Strt Register form css  */
